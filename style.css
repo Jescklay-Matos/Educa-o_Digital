@@ -1,0 +1,254 @@
+:root {
+  --primary-color: rgb(243, 243, 234);
+}
+
+.wrapperContainer-fixed {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+html {
+  /* font-size: 62.5%;
+    font-family: 'inter', serif;
+    font-weight: 400; */
+  font: 400 62.5% "inter", sans-serif;
+}
+
+p,
+a {
+  font-size: 1.6rem;
+  text-align: left;
+  margin: 15px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+nav a {
+  color: inherit;
+}
+
+.upper {
+  text-transform: uppercase;
+  background-color: orange;
+  padding: 1px 10px;
+}
+
+.estudante_com_livros {
+  width: 27.5%;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-right: 15px;
+  z-index: 0.1;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 1.6rem 4.6rem;
+  display: inline-block;
+  color: inherit;
+  background-color: orange;
+}
+
+.btn_cursos {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 1.6rem 4.6rem;
+  display: inline-block;
+  color: inherit;
+  margin-top: 4%;
+  background-color: orange;
+}
+
+.wrapperContainer {
+  padding: 1px;
+}
+
+.container {
+  max-width: 127.6rem;
+  margin: auto;
+}
+
+.section_title {
+  padding: 6rem 0;
+  text-align: center;
+  margin: 0;
+  padding-top: 10%;
+}
+
+.section_btn {
+  margin: 7rem 0;
+}
+
+.escola_title_flex {
+  display: flex;
+}
+
+.title_escola {
+  display: flexbox;
+}
+
+#escola img {
+  width: 100%;
+  height: 65vh;
+  max-width: 33%;
+  margin-top: 4.5rem;
+}
+
+#escola h2,
+p {
+  color: white;
+  font-size: 20px;
+}
+
+#escola h2 {
+  font-size: 30px;
+}
+
+.wrapperContainer-dark {
+  background-color: #2a2a2a;
+  color: #fafafa;
+  background-image: url(https://th.bing.com/th/id/R.fe6cfdc978ded0593f3bd761a5301295?rik=nGvilv8dTfhI3Q&pid=ImgRaw&r=0);
+}
+
+.wrapperContainer-light {
+  background-color: #fafafa;
+}
+
+.wrapperContainer-dark2 {
+  color: white;
+}
+
+.container {
+  max-width: 127.6rem;
+  margin: auto;
+  padding: 10px;
+}
+
+.escola_content {
+  background-color: #012d68;
+  margin-top: 10%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-color);
+  padding: 1rem 0;
+  margin-left: 15px;
+}
+
+.header_container h1 {
+  color: black;
+  font-size: 60px;
+}
+
+.header_nav a {
+  padding: 0.7em 1.15rem;
+  border: solid 1px;
+  text-decoration: none;
+}
+
+.header_nav ul {
+  display: flex;
+  gap: 0.6rem;
+  list-style-type: none;
+}
+
+.header_nav a:hover {
+  background-color: rgba(255, 255, 0, 0.329);
+}
+
+.wrapperContainer-hero {
+  background-image: linear-gradient(#fff, rgb(13, 94, 201));
+  height: 84vh;
+}
+
+.heroBanner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero_title {
+  margin-bottom: 4rem;
+}
+
+.wrapperContainer {
+  text-align: center;
+}
+
+.cursosContainer {
+  display: flex;
+}
+
+.curso_card {
+  font-size: 2.4rem;
+}
+
+.cursos_card_content {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0 0 8px 8px;
+  border-top: transparent;
+  padding: 5px;
+  margin: 10px;
+}
+
+.cursos_card_content p {
+  color: black;
+}
+
+.escola {
+  display: flex;
+  gap: 10rem;
+}
+
+.escola_content h2 {
+  text-align: start;
+  margin-left: 1.4rem;
+  margin-top: 6rem;
+}
+
+iframe {
+  width: 85%;
+}
+
+.footer {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer a {
+  color: inherit;
+  font-size: 1.2rem;
+}
+
+.contatos_address {
+  text-align: right;
+  font: normal 400 1.5rem "inter", sans-serif;
+  padding: 2rem 0;
+  margin-right: 7.4%;
+}
+
+.contatos {
+  padding-top: 10%;
+}
